@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMoveController : MonoBehaviour
+public class PlayerMoveController : MonoBehaviour, IPlayerMoveController
 {
     public event Action<WayPoint> onWayPointReached;
     [SerializeField] private Transform playerTransform;
@@ -13,7 +13,7 @@ public class PlayerMoveController : MonoBehaviour
     private WayPoint targetWayPoint;
 
 
-    public void MoveTo(WayPoint wayPoint, float speed)
+    public void MoveToWayPoint(WayPoint wayPoint, float speed)
     {
         moveProgress = 0;
         targetWayPoint = wayPoint;
@@ -22,7 +22,7 @@ public class PlayerMoveController : MonoBehaviour
         moveSpeed = speed;
     }
 
-    public void SetTo(WayPoint wayPoint)
+    public void SetToWayPoint(WayPoint wayPoint)
     {
         moveProgress = 1;
         playerTransform.position = wayPoint.position;

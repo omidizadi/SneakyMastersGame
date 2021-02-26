@@ -17,7 +17,7 @@ MonoBehaviour:
     rotation: {x: 0, y: 90, z: 0}
     autoPass: 0
     overrideRotation: 1
-  - position: {x: -13.72, y: 1.4, z: 6.56}
+  - position: {x: -15.06, y: 1.4, z: 6.56}
     rotation: {x: 0, y: 0, z: 0}
     autoPass: 0
     overrideRotation: 1

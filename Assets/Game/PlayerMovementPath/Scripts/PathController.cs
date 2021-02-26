@@ -27,13 +27,13 @@ public class PathController : MonoBehaviour
 
     public PathController SetToWayPoint()
     {
-        playerController.SetTo(GetCurrentWayPoint());
+        playerController.SetToWayPoint(GetCurrentWayPoint());
         return this;
     }
 
     public PathController MoveToWayPoint()
     {
-        playerController.MoveTo(GetCurrentWayPoint(), moveSpeed);
+        playerController.MoveToWayPoint(GetCurrentWayPoint(), moveSpeed);
         return this;
     }
 

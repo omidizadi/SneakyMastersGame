@@ -16,6 +16,12 @@
             </e>
           </e>
           <e p="Player" t="Include">
+            <e p="Interfaces" t="Include">
+              <e p="IPlayerAimControl.cs" t="Include" />
+              <e p="IPlayerLocomotion.cs" t="Include" />
+              <e p="IPlayerMoveController.cs" t="Include" />
+            </e>
+            <e p="PlayerAimControl.cs" t="Include" />
             <e p="PlayerController.cs" t="Include" />
             <e p="PlayerLocomotion.cs" t="Include" />
             <e p="PlayerMoveController.cs" t="Include" />
@@ -25,6 +31,9 @@
               <e p="PathController.cs" t="Include" />
               <e p="WayPoint.cs" t="Include" />
             </e>
+          </e>
+          <e p="Weapon" t="Include">
+            <e p="BasicGun.cs" t="Include" />
           </e>
         </e>
       </e>
