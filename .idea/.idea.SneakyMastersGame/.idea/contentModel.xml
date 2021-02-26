@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Tinamou\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Tinamou\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_SneakyMastersGame.-666542632.00" t="ExcludeRecursive" />
+    <e p="D:\Projects\SneakyMastersGame" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Game" t="Include">
+          <e p="GamePlay" t="Include">
+            <e p="GameManager.cs" t="Include" />
+          </e>
+          <e p="Level" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="LevelData.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Player" t="Include">
+            <e p="PlayerController.cs" t="Include" />
+            <e p="PlayerLocomotion.cs" t="Include" />
+            <e p="PlayerMoveController.cs" t="Include" />
+          </e>
+          <e p="PlayerMovementPath" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="PathController.cs" t="Include" />
+              <e p="WayPoint.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="SneakyMastersGame.sln" t="IncludeFlat" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
