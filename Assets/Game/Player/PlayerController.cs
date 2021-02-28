@@ -51,10 +51,10 @@ public class PlayerController : MonoBehaviour
         playerAimControl.OnDrag(e.currentInputModule.input.mousePosition);
     }
 
-    public void OnAimFinished(BaseEventData e)
+    public void OnShoot(BaseEventData e)
     {
         weapon.FinishAiming();
         playerLocomotion.DoShoot();
-        playerAimControl.OnAimFinished();
+        playerAimControl.OnShoot();
     }
 }
