@@ -7,46 +7,6 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Game" t="Include">
-          <e p="Camera" t="Include">
-            <e p="CameraController.cs" t="Include" />
-            <e p="ICameraController.cs" t="Include" />
-          </e>
-          <e p="Container" t="Include">
-            <e p="GameContainer.cs" t="Include" />
-          </e>
-          <e p="GamePlay" t="Include">
-            <e p="GameManager.cs" t="Include" />
-          </e>
-          <e p="Level" t="Include">
-            <e p="Scripts" t="Include">
-              <e p="LevelData.cs" t="Include" />
-              <e p="LevelObjective.cs" t="Include" />
-            </e>
-          </e>
-          <e p="Player" t="Include">
-            <e p="Interfaces" t="Include">
-              <e p="IPlayerAimControl.cs" t="Include" />
-              <e p="IPlayerLocomotion.cs" t="Include" />
-              <e p="IPlayerMoveController.cs" t="Include" />
-            </e>
-            <e p="PlayerAimControl.cs" t="Include" />
-            <e p="PlayerController.cs" t="Include" />
-            <e p="PlayerLocomotion.cs" t="Include" />
-            <e p="PlayerMoveController.cs" t="Include" />
-          </e>
-          <e p="PlayerMovementPath" t="Include">
-            <e p="Scripts" t="Include">
-              <e p="PathController.cs" t="Include" />
-              <e p="WayPoint.cs" t="Include" />
-            </e>
-          </e>
-          <e p="Weapon" t="Include">
-            <e p="BasicGun.cs" t="Include" />
-            <e p="IShootController.cs" t="Include" />
-            <e p="ShootController.cs" t="Include" />
-          </e>
-        </e>
         <e p="Plugins" t="Include">
           <e p="Demigiant" t="Include">
             <e p="DOTween" t="Include">
@@ -61,6 +21,93 @@
               </e>
               <e p="readme.txt" t="Include" />
             </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Camera" t="Include">
+            <e p="CameraController.cs" t="Include" />
+            <e p="Interfaces" t="Include">
+              <e p="ICameraController.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Container" t="Include">
+            <e p="GameContainer.cs" t="Include" />
+          </e>
+          <e p="Core" t="Include">
+            <e p="GameManager.cs" t="Include" />
+          </e>
+          <e p="Level" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Interfaces" t="Include">
+                <e p="ILevelObjective.cs" t="Include" />
+              </e>
+              <e p="LevelData.cs" t="Include" />
+              <e p="PropObjective.cs" t="Include" />
+              <e p="RagdollObjective.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Path" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="LevelCommand.cs" t="Include" />
+              <e p="PathController.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Player" t="Include">
+            <e p="Interfaces" t="Include">
+              <e p="IPlayerAimControl.cs" t="Include" />
+              <e p="IPlayerLocomotion.cs" t="Include" />
+              <e p="IPlayerMoveController.cs" t="Include" />
+            </e>
+            <e p="PlayerAimControl.cs" t="Include" />
+            <e p="PlayerController.cs" t="Include" />
+            <e p="PlayerLocomotion.cs" t="Include" />
+            <e p="PlayerMoveController.cs" t="Include" />
+          </e>
+          <e p="Sounds" t="Include">
+            <e p="SoundManager.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="JoystickController.cs" t="Include" />
+            <e p="UIManager.cs" t="Include" />
+          </e>
+          <e p="Weapon" t="Include">
+            <e p="BasicGun.cs" t="Include" />
+            <e p="Interfaces" t="Include">
+              <e p="IShootController.cs" t="Include" />
+              <e p="IWeapon.cs" t="Include" />
+            </e>
+            <e p="ShootController.cs" t="Include" />
+          </e>
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+            <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+            <e p="TMP_Bitmap.shader" t="Include" />
+            <e p="TMP_SDF Overlay.shader" t="Include" />
+            <e p="TMP_SDF SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+            <e p="TMP_SDF-Mobile SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface.shader" t="Include" />
+            <e p="TMP_SDF.shader" t="Include" />
+            <e p="TMP_Sprite.shader" t="Include" />
+            <e p="TMPro.cginc" t="Include" />
+            <e p="TMPro_Mobile.cginc" t="Include" />
+            <e p="TMPro_Properties.cginc" t="Include" />
+            <e p="TMPro_Surface.cginc" t="Include" />
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
       </e>
